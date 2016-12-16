@@ -10,7 +10,7 @@ task get_basename {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
