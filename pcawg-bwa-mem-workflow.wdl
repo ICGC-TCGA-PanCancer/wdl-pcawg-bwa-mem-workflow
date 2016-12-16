@@ -29,7 +29,7 @@ task read_header {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -47,7 +47,7 @@ task count_reads {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -76,7 +76,7 @@ task align {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -97,7 +97,7 @@ task bam_stats_qc {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -126,7 +126,7 @@ task merge {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -149,7 +149,7 @@ task extract_unaligned_reads {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
@@ -166,7 +166,7 @@ task extract_both_reads_unaligned {
   }
 
   runtime {
-    docker: "pcawg-bwa-workflow"
+    docker: "quay.io/pancancer/pcawg-bwa-mem"
   }
 }
 
